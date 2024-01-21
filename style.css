@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  padding: 30px;
+  height: max-content;
+}
+.serachbarSecionMain form {
+  height: max-content;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.serachbarSecionMain input {
+  width: 50%;
+  align-self: center;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #428bca;
+  border-radius: 10px;
+}
+
+.serachbarSecionMain input::placeholder {
+  font-size: 15px;
+}
+.serachbarSecionMain button {
+  padding: 6px 10px;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  margin-top: 30px;
+  color: #428bca;
+  width: 20%;
+  align-self: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.serachbarSecionMain button:hover {
+  background-color: #428bca;
+  color: white;
+  cursor: pointer;
+}
+.serachbarSecionMain h1 {
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+}
+.personalInformation {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+.userBlurEffect {
+  filter: blur(10px);
+}
+.leftSideImageAndURL {
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.userProfileImage {
+  width: 170px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 100%;
+}
+.userProfileLinkAndSVG {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.rightSidePersonalInfo {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+.rightSidePersonalInfo h1 {
+  font-weight: 400;
+}
+
+.rightSidePersonalInfo p {
+  font-weight: 500;
+}
+
+.rightSidePersonalInfo img {
+  width: 20px;
+  height: 30px;
+}
+.locationImageAndPlace {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mainRepositoriesSectionBox {
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.singleRepositoryBox {
+  width: auto;
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mainRepositoriesSectionBox > * {
+  /* Apply flex: 1; only to specific elements, excluding the heading */
+  flex: 1;
+}
+.singleRepositoryBox h1 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #428bca;
+  text-align: center;
+}
+.singleRepositoryBox p {
+  font-size: 15px;
+  font-weight: 400;
+  text-wrap: wrap;
+  text-align: center;
+}
+.skillButtonsMainSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 15px;
+  justify-content: center;
+}
+.skillSectionSingleButton {
+  padding: 8px;
+  background-color: #428bca;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.skillSectionSingleButton p {
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+}
+.paginationMainDiv {
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+#paginationButtons button.active {
+  background-color: #428bca;
+  color: #fff;
+}
+
+
+.borderDivForPaginationButtons {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d9d9d9;
+  align-items: center;
+  justify-content: center;
+}
+.borderDivForPaginationButtons  button {
+  padding: 6px 10px;
+  outline: none;
+  border: none;
+
+  color: #428bca;
+  background-color: white;
+}
+.borderDivForPaginationButtons button:hover {
+  background-color: #428bca;
+  color: white;
+  cursor: pointer;
+}
+.borderDivForPaginationButtons button img {
+  height: 10px;
+}
+.buttonForNextPagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  width: 300px;
+}
+.buttonForNextPagination button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 25px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  border-radius: 30px;
+  color: #428bca;
+  background-color: white;
+}
+.buttonForNextPagination button img {
+  height: 10px;
+}
+.buttonForNextPagination button:hover {
+  background-color: #428bca;
+  color: white;
+  cursor: pointer;
+}
